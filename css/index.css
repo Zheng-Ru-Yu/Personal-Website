@@ -1,7 +1,7 @@
 *{
 	padding: 0;
 	margin: 0;
-	font-size: 12px;
+	font:tahoma, arial, 宋体;
 }
 ul{
 	list-style: none;
@@ -21,13 +21,19 @@ body{
 	height: 100%;
 }
 .page{
-	width: 100%;
-	height:100%;
+	width:100%;
+	height: 100%;
 	overflow: hidden;
 
 }
+.wrapper{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+/*****home开始*******/
 #home{
-	background:url(../img/background.png) no-repeat;
+	background:url(../images/background.png) no-repeat;
 	background-size:100% 100%;
 	overflow: hidden;
 }
@@ -40,12 +46,13 @@ body{
 	margin:8px auto;
 	display:block;
 	animation: begin 1.3s linear 0.5s infinite;
+	cursor: pointer;
 }
 
 #cloud{
 	width: 500px;
 	height: 450px;	
-	background: url(../img/cloud.png) no-repeat;
+	background: url(../images/cloud.png) no-repeat;
 	background-size:100% 95%;
 	margin: 70px auto;
 	overflow: hidden;
@@ -83,8 +90,6 @@ body{
 	left: 260px;
 	top:140px;
 }
-
-
 #click{
 	position: absolute;
 	top:0px;
@@ -178,26 +183,338 @@ body{
 	top: 2px;
 	left: 0;
 }
+/*****home结束*******/
 
 
 
-/*about-me*/
-
+/*****about-me开始*****/
 #about-me{
 	width: 100%;
 	height:100%;
 	overflow: hidden;
 	background: blue;
 }
-#study{
-	background: yellow;
+/*****about-me结束*****/
+
+
+
+
+
+/*****learning开始*****/
+#learning{
+	background: #466594;
 }
+#learning .wrapper{
+	/*background: blue;*/
+	overflow: hidden;
+}
+#learning .title{
+	width: 75%;
+	height: 50px;
+	/*background:red;*/
+	margin: 0 auto;
+	margin-top: 60px;
+	text-align: center;
+	letter-spacing:5px;
+	line-height: 50px;
+}
+#learning .title .left{
+	float: left;
+	width: 20%;
+	height: 50px;
+	/*background:black;*/
+}
+#learning .title .right{
+	float: right;
+	width: 20%;
+	height: 50px;
+	/*background: black;*/
+}
+.line3{
+	float: right;
+	margin-top: 20px;
+}
+.line4{
+	margin-left: 66%;
+	margin-top: 25px;
+}
+.line5{
+	margin-top: 20px;
+	margin-left: -5px;
+}
+.line6{
+	margin-top: 3px;
+	/*margin-left: -5px;*/
+}
+.line4,.line6{
+	width:50px;
+	height: 4px;
+}
+.line3,.line5{
+	width: 40px;
+	height: 2px;
+	 opacity: 0.8;
+}
+#learning h1{	
+	color: white;
+	font-size: 33px;
+}
+.experience{
+	width: 75%;
+	height: 480px;
+	margin: 30px auto;
+	/*background: yellow;*/
+	position: relative;
+	overflow: hidden;
+}
+.experience .container{
+	width: 100%;
+	position: absolute;
+	top: 50px;
+}
+.part{
+	overflow: hidden;
+}
+.part .skill{
+	width: 43%;
+	height: 40px;
+	float:left;
+	/*overflow: hidden;*/
+	/*background: pink;*/
+	margin-top: 5px;
+	color: white;
+}
+#learning .part h3{
+
+float: right;
+
+}
+.part .skill p{
+	
+color: white;
+
+}
+
+.skill .c{
+	float: right;
+}
+#learning .part .time{
+	width: 43%;
+	height: 40px;
+	/*background: black;*/
+	float: right;
+	margin-top: 5px;
+	overflow: hidden;
+}
+#learning .part .dot{
+	width: 10px;
+	height: 10px;
+	background: pink;
+	border-radius: 50%;
+	float: left;
+	margin-top:15px;
+}
+#learning .part .data{
+	width: 70%;
+	height: 40px;
+	background: pink;
+	border-radius: 20px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bolder;
+	color: #466594;
+	margin-left: 30px;
+}
+#learning .experience .tu{
+	width: 50px;
+	height: 50px;
+	margin-left: 50%;
+}
+#learning .experience img{
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+}
+.line7{
+	height: 40px;
+	width: 4px;
+	margin: 5px auto;
+}
+
+
+
+
+.part2 .skill{
+	width: 43%;
+	height: 40px;
+	float: right;
+	/*overflow: hidden;*/
+	margin-top: 5px;
+	color: white;
+}
+.part2 h3{
+	color: white;
+}
+#learning .part2 .time{
+	width: 43%;
+	height: 40px;
+	float: left;
+	margin-top: 5px;
+	overflow: hidden;
+}
+#learning .part2 .dot{
+	width: 10px;
+	height: 10px;
+	background: pink;
+	border-radius: 50%;
+	float: right;
+	margin-top:15px;
+}
+#learning .part2 .data{
+	width: 70%;
+	height: 40px;
+	background: pink;
+	border-radius: 20px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bolder;
+	color: #466594;
+	margin-left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+/*****learning结束*****/
+
+
+
+
+
+/*****showcase开始*****/
 #showcase{
 	background: red;
 }
+/*****showcase结束*****/
+
+/*****life开始*****/
+
 #life{
 	background: black;
 }
+/*****life结束*****/
+
+
+
+
+
+/*****#contact开始******/
 #contact{
-	background: gray;
+	background:#604f71;
 }
+
+#send-container{
+	width: 40%;
+	height:400px;
+	/*background: #000;*/
+	text-align: center;
+	float: right;
+	margin-top: 200px;
+}
+#send-container input{
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	color: black;
+
+}
+#send-container .text{
+	width: 60%;
+	height: 40px;
+	text-indent: 10px;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+#send-container textarea {
+	width: 60%;
+	height: 100px;
+	border-radius: 10px;
+	text-indent: 10px;
+	resize: none;
+	outline: none;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+	border: none;
+	font-size: 20px;
+
+
+}
+#send-container .submit{
+	width: 80px;
+	height: 40px;
+	background: #f397a4;
+	color:white;
+}
+#comment{
+	width: 50%;
+	/*height: 400px;*/
+	float: left;
+	/*background: black;*/
+	/*overflow: auto;*/
+	margin-left: 20px;
+	margin-top: 120px;
+}
+#number{
+	width: 100%;
+	height: 30px;
+	background: pink;
+	font-size: 20px;
+	color:white;
+	line-height: 30px;
+}
+#Searchresult{
+	width:100%; 
+	/*height:300px; */
+	/*padding:20px;*/
+}
+.row{
+	padding:10px 5px 0px 5px;
+	width: 100%;
+	/*height: 60px;*/
+	position: relative;
+}
+
+#message{
+	font-size: 18px;
+	color: white;
+
+}
+#comment .content{
+	overflow: hidden;
+	padding: 10px;
+}
+#writter{
+	color: white;
+	position: absolute;
+	bottom: 3px;
+	right:10px; 
+}
+hr{
+	border: 1px dashed white ;
+}
+/*****#contact结束******/
+@media screen and (max-width: 1200px){
+	#learning .title h1 {
+		font-size: 25px;
+	}
+
+
+	}
