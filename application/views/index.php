@@ -23,7 +23,7 @@
 		</div> -->
         <div id="cloud">
             <a><img src="images/rocket.png" alt="" id="rocket"> </a>
-            <img src="images/click.png" alt="" id="click">
+            <img src="images/click1.png" alt="" id="click">
             <div class="line line1"></div>
             <div class="line line2"></div>
         </div>
