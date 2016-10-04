@@ -41,6 +41,7 @@
     <div id="about-me" class="page"></div>
 
     <div id="learning" class="page">
+        nhbjhb
         <div class="wrapper">
             <div class="title">
                 <div class="left">
