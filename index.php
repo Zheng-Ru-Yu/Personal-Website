@@ -272,6 +272,7 @@ switch (ENVIRONMENT)
 	if ( ! isset($view_folder[0]) && is_dir(APPPATH.'views'.DIRECTORY_SEPARATOR))
 	{
 		$view_folder = APPPATH.'views';
+		$view_folder = APPPATH.'views';
 	}
 	elseif (is_dir($view_folder))
 	{

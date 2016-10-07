@@ -34,12 +34,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		$name=$this->input->post('name');
 		$email=$this->input->post('email');
 		$content=$this->input->post('content');
-		$result=$this->Pl_model->comment($name,$email,$content);
+		$result=$this->Pl_model->save_comment($name,$email,$content);
 	if($result){
-		//render('index.php');
-		redirect('pl/index');
+		echo"success";
+
 	}else{
-		echo "添加失败";
+		echo "fail";
  	}
 	}
 	
